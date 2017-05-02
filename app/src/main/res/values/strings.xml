@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CafeOino</string>
+    <string name="action_settings">Settings</string>
+    <string name="description">Logo Image</string>
+    <string name="description_bg">Background Image</string>
+    <string name="main_name">CafeOino Business Details</string>
+    <string name="business_info">Serves breakfast, coffee snacks, sweets, waffles, cocktails, beers and you can enjoy all that with a board game</string>
+
+</resources>

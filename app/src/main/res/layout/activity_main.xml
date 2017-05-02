@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_img"
+        android:orientation="vertical"
+        tools:context="com.example.android.cafeoino_singlesreenapp.MainActivity">
+
+
+        <ImageView
+            android:contentDescription="@string/description_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="197dp"
+            android:alpha="0.8"
+            android:scaleType="fitXY"
+            android:src="@drawable/background_top" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:contentDescription="@string/description"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:paddingTop="10dp"
+                android:src="@drawable/ic_info_black_48dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/main_name"
+                android:textColor="@color/backgroundColor"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="40dp"
+            android:paddingBottom="10dp"
+            android:text="@string/business_info"
+            android:textColor="@color/backgroundColor"
+            android:textSize="17sp" />
+
+
+            <ListView
+                android:id="@+id/servicesList"
+                android:layout_width="wrap_content"
+                android:layout_height="176dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="40dp"
+                android:paddingBottom="8dp"></ListView>
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            tools:context="{relativePackage}.${activityClass}">
+
+            <ListView
+                android:id="@+id/contactList"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"></ListView>
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
